@@ -1,0 +1,24 @@
+{
+  "name": "typescript-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "config": {
+    "js_main": "src_dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+
+    "prestart": "npm run build",
+    "start": "node %npm_package_config_js_main%"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

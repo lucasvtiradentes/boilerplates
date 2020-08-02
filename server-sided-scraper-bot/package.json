@@ -1,0 +1,21 @@
+{
+  "name": "server-sided-scraper-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "bot_01": "node src/bot_01/index.js",
+    "bot_02": "node src/bot_02/index.js"
+  },
+  "author": "Lucas Vieira",
+  "license": "ISC",
+  "engines": {
+    "node": "12.16.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^3.3.0"
+  }
+}

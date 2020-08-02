@@ -1,0 +1,32 @@
+15/06/2020 - 14:51 - 1
+15/06/2020 - 14:51 - 1
+15/06/2020 - 15:09 - 3 -> Número de pedidos: 11
+15/06/2020 - 15:09 - 4 -> Número de pedidos: 11
+15/06/2020 - 15:09 - 5 -> Número de pedidos: 11
+15/06/2020 - 15:09 - 6 -> Número de pedidos: 11
+15/06/2020 - 15:10 - 7 -> Número de pedidos: 10
+15/06/2020 - 15:10 - 8 -> Número de pedidos: 10
+15/06/2020 - 15:10 - 9 -> Número de pedidos: 12
+15/06/2020 - 15:10 - 10 -> Número de pedidos: 12
+15/06/2020 - 15:10 - 11 -> Número de pedidos: 12
+15/06/2020 - 16:02 - 12 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 13 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 14 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 15 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 16 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 17 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 18 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 19 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 20 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 21 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 22 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 23 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 24 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 25 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 26 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 27 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 28 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 29 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 30 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 31 -> Número de pedidos: 10
+15/06/2020 - 16:02 - 32 -> Número de pedidos: 10

@@ -1,0 +1,28 @@
+body {
+   color: red;
+}
+
+iframe {
+   width: 80%;
+   height: 800px;
+}
+
+#content {
+   background-color: blue;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 5px;
+}
+
+.pag {
+   background-color: red;
+}
+
+.pag .titulo {
+   color: chartreuse;
+}
+
+.pag .dados {
+   color: purple;
+}

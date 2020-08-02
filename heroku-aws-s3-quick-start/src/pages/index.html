@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <!-- ############################################################################################################# -->
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 file uploader</title>
+    <script defer src="./script.js"></script>
+  </head>
+
+  <!-- ############################################################################################################# -->
+
+  <body>
+    <div id="content">
+
+      <h1>Edit your account</h1>
+      <hr>
+
+      <h2>Your avatar</h2>
+      <input type="file" id="file-input">
+      <p id="status">Please select a file</p>
+      <img style="border:1px solid gray;width:300px;"  id="preview" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/4-10-12-wolf-1_%28cropped%29.jpg/220px-4-10-12-wolf-1_%28cropped%29.jpg">
+
+      <h2>Your information</h2>
+      <form method="POST" action="/save-details">
+
+        <input type="hidden" id="avatar-url" name="avatar-url" value="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/4-10-12-wolf-1_%28cropped%29.jpg/220px-4-10-12-wolf-1_%28cropped%29.jpg">
+        <input type="text" name="username" placeholder="Username"><br>
+        <input type="text" name="full-name" placeholder="Full name"><br><br>
+
+        <hr>
+        <h2>Save changes</h2>
+        <input type="submit" value="Update profile">
+
+      </form>
+    </div>  
+  </body>
+  
+  <!-- ############################################################################################################# -->
+
+</html>

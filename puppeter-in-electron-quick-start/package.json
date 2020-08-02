@@ -1,0 +1,16 @@
+{
+  "name": "puppeter-in-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.2",
+    "puppeteer-core": "^3.3.0",
+    "puppeteer-in-electron": "^3.0.2"
+  }
+}
