@@ -1,0 +1,17 @@
+{
+  "name": "appsuper-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.699.0",
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "puppeteer": "^4.0.0"
+  }
+}

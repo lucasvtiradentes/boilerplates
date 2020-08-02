@@ -1,0 +1,16 @@
+{
+  "name": "heroku-s3-quick-start",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "2.x",
+    "connect-multiparty": "^2.2.0",
+    "ejs": "2.x",
+    "express": "4.x",
+    "s3fs": "^2.5.0"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "manifest_version": 2,
+  "name": "EXTENSAO MODELO",
+  "description": "Extensão MODELO",
+  "version": "1.3.3",
+  "author": "Lucas Vieira",
+
+  "background": {
+    "page": "./resources/scripts/background.html",
+    "persistent": false
+  },
+
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "tabs",
+    "https://admin.appsuper.com.br/orders/order/*",
+    "https://af.appsuper.com.br/*",
+    "https://cielo.com.br/*",
+    "https://minhaconta2.cielo.com.br/*"
+  ],
+
+  "web_accessible_resources": [
+    "features_icon/page_01/index.html",
+    "features_icon/page_02/index.html",
+    "resources/scripts/cieloInjection.js"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://minhaconta2.cielo.com.br/*",
+        "https://cielo.com.br/*"
+      ],
+      "js": [
+        "./resources/scripts/cieloInjection.js"
+      ]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "./resources/images/icon_super.png",
+      "32": "./resources/images/icon_super.png",
+      "48": "./resources/images/icon_super.png",
+      "128": "./resources/images/icon_super.png"
+    },
+    "default_popup": "features_icon/popup/popup.html",
+    "default_title": "Controle de fluxo de pedidos / SUPER"
+  },
+
+  "icons": {
+    "16": "./resources/images/icon_super.png",
+    "32": "./resources/images/icon_super.png",
+    "48": "./resources/images/icon_super.png",
+    "128": "./resources/images/icon_super.png"
+  }
+
+
+}

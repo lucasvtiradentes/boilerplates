@@ -1,0 +1,13 @@
+{
+   "name": "nodejs-es6",
+   "description": "A nodejs simple project",
+   "version": "1.0.0",
+   "main": "src/index.js",
+   "scripts": {
+      "start": "sucrase-node src/index.js"
+   },
+   "dependencies": {
+      "sucrase": "^3.15.0"
+   },
+   "devDependencies": {}
+}

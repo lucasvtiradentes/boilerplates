@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+  <!-- ##################################################################### -->
+
+  <head>
+    <title>ANÁLISE DE TRANSACAO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <!-- ##################################################################### -->
+
+  <body>
+
+  <!-- ===================================================================== -->
+
+    <div id="header">
+      Estatísticas de pedidos
+    </div>
+
+  <!-- ===================================================================== -->
+
+  <div id="content">
+
+   <div class="pag">
+
+      <div class="titulo">DADOS DO PEDIDO</div>
+
+      <div class="dados">
+         <!-- <script>window.location.href</script> -->
+         <form id="userform">
+         <div class="line">
+            <div class="property"><label for="order">Número do pedido</label><br></div>
+            <div class='readonly'><input type="text" id="orderNumer" name="order" value=""><br></div>
+         </div>
+
+         <div class="line">
+            <div class="property">Mercado</div>
+            <div class='readonly'>Mateus Renascença</div>
+         </div>
+
+         <div class="line">
+            <div class="property">Data hora</div>
+            <div class='readonly'>11/12/1997 - 05:25</div>
+         </div>
+        
+         <div class="center">
+            <button type="submit" id="button_generate">Gerar PDF</button>
+         </div>
+         
+      </form> 
+      </div>
+
+   </div>
+
+  <!-- ===================================================================== -->
+
+   <div class="pag">
+      <div class="titulo">PAGINA SUPER</div>
+
+      <div class="dados">
+
+         <div class="line">
+            <div class="property">Valor</div>
+            <div class='readonly'>25,05</div>
+         </div>
+
+         <div class="line">
+            <div class="property">Transaction ID (TID)</div>
+            <div class='readonly'>277407827404GCQ518OC</div>
+         </div>
+               
+         <div class="line">
+            <div class="property">ID do Pagamento</div>
+            <div class='readonly'>27cc4566-e7db-42fa-ba8b-bc3a6f61f36f</div>
+         </div>
+        
+         <div class="center">
+            <button id="login-super">LOGIN SUPER</button>
+            <button id="pdf-super">PDF SUPER</button>
+         </div>
+
+      </div>
+
+      <!-- <iframe src="https://minhaconta2.cielo.com.br/minha-conta/home"></iframe> -->
+   </div>
+
+  <!-- ===================================================================== -->
+
+   <div class="pag">
+      <div class="titulo">PAGINA MERCADO</div>
+
+      <div class="dados">
+
+         <div class="line">
+            <div class="property">Valor</div>
+            <div class='readonly'>250,05</div>
+         </div>
+
+         <div class="line">
+            <div class="property">Transaction ID (TID)</div>
+            <div class='readonly'>277407827404GCQ518OC</div>
+         </div>
+               
+         <div class="line">
+            <div class="property">ID do Pagamento</div>
+            <div class='readonly'>27cc4566-e7db-42fa-ba8b-bc3a6f61f36f</div>
+         </div>
+  
+         <div class="center">
+            <button id="login-market">LOGIN MERCADO</button>
+            <button id="pdf-market">PDF MERCADO</button>
+         </div>
+
+      </div>
+
+      <!-- <iframe src="https://minhaconta2.cielo.com.br/minha-conta/home"></iframe> -->
+   </div>
+
+</div>
+
+  <!-- ===================================================================== -->
+
+    <div id="footer">
+      --
+    </div>
+
+  <!-- ===================================================================== -->
+
+  </body>
+
+  <!-- ##################################################################### -->
+
+</html>
